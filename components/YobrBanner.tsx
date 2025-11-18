@@ -87,8 +87,8 @@ export function YobrBanner() {
               color: "rgb(36, 9, 67)",
             }}
           >
-            Dette er en raskt laget prototype for å demonstrere hva som er mulig.
-            Feil og problemer kan oppstå.
+            Dette er en raskt laget prototype for å demonstrere hva som er
+            mulig. Feil og problemer kan oppstå.
           </p>
         </div>
       </div>
