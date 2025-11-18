@@ -62,13 +62,13 @@ export function YobrBanner() {
               href="https://www.yobr.io/"
               target="_blank"
               rel="noopener noreferrer"
-              className="relative bg-[#FEF4AB] text-[#240943] font-semibold px-6 py-2 rounded-xl border border-[#240943] shadow-[0_6px_0_0_#240943] transform translate-y-0 transition-all duration-150 hover:translate-y-[2px] hover:shadow-[0_4px_0_0_#240943] active:translate-y-[4px] active:shadow-[0_2px_0_0_#240943] cursor-pointer text-sm sm:text-base whitespace-nowrap shrink-0 flex items-center gap-2"
+              className="relative bg-[#FEF4AB] text-[#240943] font-semibold px-4 py-1.5 rounded-xl border border-[#240943] shadow-[0_4px_0_0_#240943] transform translate-y-0 transition-all duration-150 hover:translate-y-[1px] hover:shadow-[0_3px_0_0_#240943] active:translate-y-[2px] active:shadow-[0_2px_0_0_#240943] cursor-pointer text-xs sm:text-sm whitespace-nowrap shrink-0 flex items-center gap-1.5"
               style={{
                 fontFamily: "var(--font-domine), serif",
               }}
             >
               Ta kontakt
-              <ExternalLink className="h-4 w-4" />
+              <ExternalLink className="h-3.5 w-3.5" />
             </a>
           </div>
         </div>

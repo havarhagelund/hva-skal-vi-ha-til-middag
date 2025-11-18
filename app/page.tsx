@@ -92,7 +92,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col h-screen bg-background">
-      <YobrBanner />
+      {/* <YobrBanner /> */}
       <div className="flex-1 flex flex-col min-h-0">
         {selectedRecipe ? (
           <div className="flex-1 overflow-auto p-4">
