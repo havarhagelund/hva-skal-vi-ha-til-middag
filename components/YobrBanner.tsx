@@ -75,26 +75,23 @@ export function YobrBanner() {
       </div>
 
       {/* Disclaimer Alert */}
-      <Alert
-        variant="destructive"
-        className="rounded-none border-x-0 border-t-0 pl-20"
-        style={{
-          backgroundColor: "rgb(241, 229, 254)",
-          borderColor: "rgb(241, 229, 254)",
-        }}
+      <div
+        className="border-b"
+        style={{ backgroundColor: "rgb(241, 229, 254)" }}
       >
-        <AlertDescription
-          className="text-sm"
-          style={{
-            fontFamily: "var(--font-domine), serif",
-            color: "rgb(36, 9, 67)",
-            marginTop: "2px",
-          }}
-        >
-          Dette er en raskt laget prototype for å demonstrere hva som er mulig.
-          Feil og problemer kan oppstå.
-        </AlertDescription>
-      </Alert>
+        <div className="max-w-7xl mx-auto px-4 py-3">
+          <p
+            className="text-sm"
+            style={{
+              fontFamily: "var(--font-domine), serif",
+              color: "rgb(36, 9, 67)",
+            }}
+          >
+            Dette er en raskt laget prototype for å demonstrere hva som er mulig.
+            Feil og problemer kan oppstå.
+          </p>
+        </div>
+      </div>
     </>
   );
 }
